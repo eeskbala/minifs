@@ -30,6 +30,8 @@ board_prepare() {
 	TARGET_PACKAGES+=" targettools"
 
 	TARGET_PACKAGES+=" libalsa"
+	
+	TARGET_PACKAGES+=" mplayer"
 
 	ROOTFS_KEEPERS+="libnss_compat.so.2:"
 	ROOTFS_KEEPERS+="libnss_files.so.2:"
